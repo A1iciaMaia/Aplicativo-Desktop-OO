@@ -1,6 +1,6 @@
 import uuid
 import sqlite3
-from typing import List, Union, Dict, Any, Optional
+from typing import List, Dict, Any, Optional
 
 # --- CONFIGURAÇÃO DO BANCO DE DADOS ---
 DB_NAME = 'estante_virtual.db'
@@ -216,7 +216,8 @@ class Estante:
         for item in self.itens:
             print(f"- [{item.__class__.__name__}] {item}")
         print("-" * 30)
-
+# 4. MÉTODOS ADICIONAIS DE BUSCA E FILTRAGEM 
+# PAREI AQUI
     def buscar_por_titulo(self, termo: str) -> None:
         """Busca itens por um termo no título (case-insensitive)."""
         termo = termo.lower()
