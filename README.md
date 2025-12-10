@@ -31,3 +31,4 @@ A aplicação suporta as operações essenciais de um gerenciador de coleções:
 | **Atualizar Lista** | Força a recarga dos dados diretamente do banco de dados, sincronizando a visualização. |
 
 
+
