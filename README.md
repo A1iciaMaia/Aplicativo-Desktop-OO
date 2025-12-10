@@ -30,20 +30,4 @@ A aplicação suporta as operações essenciais de um gerenciador de coleções:
 | **Detalhes** | Exibe todas as propriedades de um item selecionado em uma caixa de diálogo informativa. |
 | **Atualizar Lista** | Força a recarga dos dados diretamente do banco de dados, sincronizando a visualização. |
 
-### Como Executar o Projeto
 
-Para rodar esta aplicação em seu ambiente local, siga os passos abaixo:
-
-1.  **Clone o Repositório:**
-    ```bash
-    git clone [https://docs.github.com/pt/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github](https://docs.github.com/pt/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github)
-    cd EstanteVirtual
-    ```
-2.  **Verifique as Dependências:**
-    O projeto utiliza apenas bibliotecas padrão do Python (Tkinter, sqlite3).
-3.  **Execute a Aplicação Principal:**
-    ```bash
-    python src/gui_estante_virtual.py
-    ```
-
-A janela da **Estante Virtual** será aberta, e o banco de dados (`estante_virtual.db`) será criado automaticamente, se ainda não existir.
